@@ -74,7 +74,6 @@ Visualizations (Volcano, PCA, Heatmap, Boxplots)
 ---
 
 ## 📈 Visualizations
-## 📈 Visualizations
 
 ### 🌋 Volcano Plot
 ![Volcano Plot](volcano_plot.png)
