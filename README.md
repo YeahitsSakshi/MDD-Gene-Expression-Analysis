@@ -140,5 +140,4 @@ is a hallmark of MDD. Key findings:
 ## 👤 Author
 **Sakshi Lodhi**  
 Biotechnologist | Bioinformatics | Computational Neuroscience  
-🔗 LinkedIn | 🐙 GitHub
-"""
+🔗 [LinkedIn](https://www.linkedin.com/in/sakshi-lodhi-rajput-4259a1240) | 🐙 [GitHub](https://github.com/YeahitsSakshi)
