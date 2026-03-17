@@ -1,4 +1,3 @@
-readme = """
 # 🧠 Differential Gene Expression Analysis in Major Depressive Disorder (MDD)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
