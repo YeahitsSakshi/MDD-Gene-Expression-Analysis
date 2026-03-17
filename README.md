@@ -143,9 +143,3 @@ is a hallmark of MDD. Key findings:
 Biotechnologist | Bioinformatics | Computational Neuroscience  
 🔗 LinkedIn | 🐙 GitHub
 """
-
-# Save README to Google Drive
-with open('/content/drive/MyDrive/Sakshi.1/README.md', 'w') as f:
-    f.write(readme)
-
-print("✅ README.md saved to Google Drive!")<img width="1900" height="945" alt="image" src="https://github.com/user-attachments/assets/5585bfca-c453-4372-8385-b18c949e4eba" />
