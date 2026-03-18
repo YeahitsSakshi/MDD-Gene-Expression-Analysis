@@ -128,15 +128,83 @@ Expression distribution of top 4 most significant genes
 | gseapy | GO, KEGG and Reactome enrichment analysis |
 ---
 
-## 🧠 Biological Interpretation
-The DLPFC is the brain's emotion regulation center — reduced activity here
-is a hallmark of MDD. Key findings:
+## 🧬 Biological Interpretation
 
-- **Neuroinflammation** — immune genes (NKG7, PRF1) downregulated
-- **Synaptic dysfunction** — synaptic genes (SNTG2) upregulated  
-- **Stress response** — neuropeptide SPX downregulated
-- **Mixed PCA signal** — consistent with MDD heterogeneity across patients
+### The DLPFC in MDD
+The **Dorsolateral Prefrontal Cortex (DLPFC)** is the brain's emotion 
+regulation center — responsible for decision making, working memory, 
+and controlling emotional responses. In MDD patients this region shows 
+reduced activity, volume loss and gene dysregulation.
 
+### Key DEG Findings
+| Gene | Direction | Biological Role | Significance |
+|---|---|---|---|
+| SNTG2 | Upregulated | Synaptic organization | Disrupted synaptic structure |
+| NKG7 | Downregulated | Natural killer cell activity | Neuroinflammation signature |
+| PRF1 | Downregulated | Immune cell perforin | Immune dysregulation in brain |
+| USH1C | Downregulated | Neurological function | Sensory-neural pathway affected |
+| SPX | Downregulated | Stress neuropeptide | HPA axis dysregulation |
+| KLC3 | Upregulated | Kinesin motor protein | Axonal transport disrupted |
+
+### GO Enrichment Insights
+- **T Cell Mediated Immunity** — immune cells infiltrating MDD brain
+- **Negative Regulation of Neuron Differentiation** — disrupted neuroplasticity
+- **Intracellular Signal Transduction** — signaling cascades dysregulated
+- **Skeletal System Development** — MDD affects systemic biology beyond brain
+
+### KEGG Pathway Insights
+- **Glycerophospholipid Metabolism** — most significant pathway, brain 
+  membrane lipid composition altered in MDD
+- **Ether Lipid Metabolism** — brain specific lipid signaling disrupted
+- **Signaling Pathways Regulating Pluripotency** — neural stem cell 
+  renewal and differentiation pathways affected
+- **Lysine Degradation** — amino acid metabolism changed in MDD brain
+
+### Reactome Pathway Insights
+- **Gap Junction Assembly & Trafficking** — top finding! Gap junctions 
+  allow direct neuron-to-neuron communication. Disruption means neurons 
+  in DLPFC cannot communicate properly in MDD
+- **NGF-stimulated Transcription** — Nerve Growth Factor drives 
+  neuroplasticity. Disruption means reduced ability to form new 
+  neural connections
+- **Netrin-1 Signaling** — guides neuron survival and axon growth. 
+  Disruption linked to neurodegeneration in psychiatric disorders
+- **Nuclear Events (Kinase & Transcription)** — core gene regulation 
+  machinery affected — explaining widespread gene expression changes
+
+### Overall Biological Story
+```
+Chronic stress / genetic vulnerability
+            ↓
+HPA axis overactivation → excess cortisol
+            ↓
+DLPFC neuron damage + volume loss
+            ↓
+Gap junction disruption → neurons can't communicate
+            ↓
+NGF + Netrin-1 signaling fails → neuroplasticity lost
+            ↓
+Immune genes (NKG7, PRF1) dysregulated → neuroinflammation
+            ↓
+Synaptic genes (SNTG2, KLC3) disrupted → synaptic dysfunction
+            ↓
+Clinical symptoms: anhedonia, cognitive impairment,
+emotional dysregulation — hallmarks of MDD
+```
+
+### Why This Matters
+These findings suggest MDD is not just a serotonin deficiency — 
+it involves **multiple converging biological mechanisms**:
+- Neuroinflammation
+- Synaptic dysfunction  
+- Impaired neuroplasticity
+- Disrupted neuron-to-neuron communication
+- Systemic metabolic changes
+
+This supports the growing consensus that **effective MDD treatment 
+requires targeting multiple pathways** — not just serotonin alone. 
+This is why drugs like Ketamine (targeting glutamate) and 
+anti-inflammatory approaches are showing promise in treatment-resistant MDD.
 ---
 
 ## 📚 References
