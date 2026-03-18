@@ -114,14 +114,18 @@ Expression distribution of top 4 most significant genes
 
 ## ⚙️ Tools & Libraries
 ```python
-GEOparse    # NCBI GEO data fetching
-pandas      # Data manipulation
-numpy       # Numerical operations
-scipy       # Welch's t-test
-matplotlib  # Plotting
-seaborn     # Statistical visualizations
-sklearn     # PCA and normalization
-mygene      # ENSEMBL ID to gene name conversion
+| Library | Purpose |
+|---|---|
+| GEOparse | NCBI GEO data fetching |
+| pandas | Data manipulation |
+| numpy | Numerical operations |
+| scipy | Welch's t-test |
+| matplotlib | Plotting |
+| seaborn | Statistical visualizations |
+| sklearn | PCA and normalization |
+| mygene | ENSEMBL ID to gene name conversion |
+| gseapy | GO, KEGG and Reactome enrichment analysis |
+
 ---
 
 ## 🧠 Biological Interpretation
