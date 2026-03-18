@@ -47,9 +47,18 @@ DEG Analysis (Welch's t-test per gene)
         ↓
 FDR Correction (Benjamini-Hochberg)
         ↓
-107 Significant DEGs found
+107 Significant DEGs identified
         ↓
-Visualizations (Volcano, PCA, Heatmap, Boxplots)
+Gene Name Conversion (ENSEMBL → Gene Symbols)
+        ↓
+GO Enrichment Analysis (222 significant processes)
+        ↓
+KEGG Pathway Analysis (7 significant pathways)
+        ↓
+Reactome Pathway Analysis (23 significant pathways)
+        ↓
+7 Publication-Quality Visualizations
+```
 ---
 
 ## 📊 Results
