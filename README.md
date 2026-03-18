@@ -60,7 +60,7 @@ Reactome Pathway Analysis (23 significant pathways)
 7 Publication-Quality Visualizations
 
 ---
-
+```
 ## 📊 Results
 | Category | Count |
 |---|---|
@@ -71,6 +71,8 @@ Reactome Pathway Analysis (23 significant pathways)
 | GO enriched processes | 222 |
 | KEGG significant pathways | 7 |
 | Reactome significant pathways | 23 |
+
+---
 
 ### 🔝 Top Significant Genes
 | Gene | Direction | p-value | Biological Role |
