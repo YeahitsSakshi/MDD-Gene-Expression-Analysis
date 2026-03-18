@@ -58,7 +58,7 @@ KEGG Pathway Analysis (7 significant pathways)
 Reactome Pathway Analysis (23 significant pathways)
         ↓
 7 Publication-Quality Visualizations
-```
+
 ---
 
 ## 📊 Results
@@ -80,7 +80,7 @@ Reactome Pathway Analysis (23 significant pathways)
 | PRF1 | Downregulated | 0.0099 | Immune cell activity |
 | SPX | Downregulated | 0.0171 | Stress neuropeptide |
 | USH1C | Downregulated | 0.0055 | Neurological function |
-```
+
 ---
 
 ## 📈 Visualizations
