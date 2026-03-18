@@ -71,7 +71,7 @@ Reactome Pathway Analysis (23 significant pathways)
 | GO enriched processes | 222 |
 | KEGG significant pathways | 7 |
 | Reactome significant pathways | 23 |
-```
+
 ### 🔝 Top Significant Genes
 | Gene | Direction | p-value | Biological Role |
 |---|---|---|---|
@@ -109,10 +109,10 @@ Expression distribution of top 4 most significant genes
 
 ### 📊 Reactome Pathway Enrichment
 ![Reactome Barplot](Reactome_barplot.png)
-```
+
 ---
 
-### ⚙️ Tools & Libraries
+## ⚙️ Tools & Libraries
 | Library | Purpose |
 |---|---|
 | GEOparse | NCBI GEO data fetching |
@@ -124,7 +124,6 @@ Expression distribution of top 4 most significant genes
 | sklearn | PCA and normalization |
 | mygene | ENSEMBL ID to gene name conversion |
 | gseapy | GO, KEGG and Reactome enrichment analysis |
-```
 ---
 
 ## 🧠 Biological Interpretation
