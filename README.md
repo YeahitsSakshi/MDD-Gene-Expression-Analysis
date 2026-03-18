@@ -50,8 +50,6 @@ FDR Correction (Benjamini-Hochberg)
 107 Significant DEGs found
         ↓
 Visualizations (Volcano, PCA, Heatmap, Boxplots)
-```
-
 ---
 
 ## 📊 Results
@@ -61,6 +59,9 @@ Visualizations (Volcano, PCA, Heatmap, Boxplots)
 | Upregulated in MDD | 34 |
 | Downregulated in MDD | 73 |
 | Total significant DEGs | 107 |
+| GO enriched processes | 222 |
+| KEGG significant pathways | 7 |
+| Reactome significant pathways | 23 |
 
 ### 🔝 Top Significant Genes
 | Gene | Direction | p-value | Biological Role |
@@ -91,6 +92,15 @@ Hierarchical clustering of 107 significant DEGs across all 47 samples
 ![Boxplots](boxplots.png)
 Expression distribution of top 4 most significant genes
 
+### 📊 GO Biological Process Enrichment
+![GO Barplot](GO_barplot.png)
+
+### 🫧 KEGG Pathway Bubble Plot
+![KEGG Bubble](KEGG_bubble_plot.png)
+
+### 📊 Reactome Pathway Enrichment
+![Reactome Barplot](Reactome_barplot.png)
+
 ---
 
 ## ⚙️ Tools & Libraries
@@ -103,19 +113,6 @@ matplotlib  # Plotting
 seaborn     # Statistical visualizations
 sklearn     # PCA and normalization
 mygene      # ENSEMBL ID to gene name conversion
-```
-
----
-
-## 📁 Output Files
-```
-DEG_Final_Results.xlsx   ← Full results table with gene names
-volcano_plot.png         ← Volcano plot
-PCA_plot.png             ← PCA clustering
-heatmap.png              ← DEG heatmap
-boxplots.png             ← Top gene boxplots
-```
-
 ---
 
 ## 🧠 Biological Interpretation
@@ -129,11 +126,49 @@ is a hallmark of MDD. Key findings:
 
 ---
 
-## References
-1. NCBI GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80655
-2. Bowling et al. (2017). PMID: 28754123
-3. GEOparse: https://github.com/guma44/GEOparse
+## 📚 References
 
+### Dataset
+1. Bowling et al. (2017). *Widespread sex differences in gene expression 
+   and splicing in the adult human brain.* Nature Communications, 8, 14702.
+   PMID: [28754123](https://pubmed.ncbi.nlm.nih.gov/28754123/)
+   
+2. NCBI GEO Dataset GSE80655:
+   https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80655
+
+### Tools & Libraries
+3. GEOparse — Python library for GEO data:
+   https://github.com/guma44/GEOparse
+
+4. GSEApy — Gene Set Enrichment Analysis in Python:
+   https://gseapy.readthedocs.io/
+
+5. MyGene.info — Gene annotation service:
+   https://mygene.info/
+
+### Databases
+6. Gene Ontology Consortium (2023). *The Gene Ontology knowledgebase in 2023.*
+   Genetics, 224(1).
+   https://geneontology.org/
+
+7. KEGG — Kyoto Encyclopedia of Genes and Genomes:
+   Kanehisa M. et al. (2023). KEGG for taxonomy-based analysis of pathways 
+   and genomes. Nucleic Acids Research, 51(D1), D587-D592.
+   https://www.kegg.jp/
+
+8. Reactome Pathway Database:
+   Milacic M. et al. (2024). The Reactome Pathway Knowledgebase 2024.
+   Nucleic Acids Research, 52(D1), D672-D678.
+   https://reactome.org/
+
+### Statistical Methods
+9. Benjamini Y. & Hochberg Y. (1995). *Controlling the False Discovery Rate: 
+   A Practical and Powerful Approach to Multiple Testing.*
+   Journal of the Royal Statistical Society, 57(1), 289-300.
+
+10. Welch B.L. (1947). *The generalization of Student's problem when several 
+    different population variances are involved.*
+    Biometrika, 34(1-2), 28-35.
 ---
 
 ## 👤 Author
